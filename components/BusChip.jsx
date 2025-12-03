@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dc146e4421beb8520d592307a35509969922f19e72b9de5aa3356b022e628220
-size 235
+"use client";
+import Link from "next/link";
+
+export default function BusChip({ number, href }) {
+  const content = <div className="brutal-chip">{number}</div>;
+  if (href) return <Link href={href}>{content}</Link>;
+  return content;
+}

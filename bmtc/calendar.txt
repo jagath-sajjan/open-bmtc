@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:87754bc459805816f257d5ca317c564955a4ad0b197612c41d60b65058ed8b0f
-size 122
+monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date,service_id
+1,1,1,1,1,1,1,20251202,20261202,1

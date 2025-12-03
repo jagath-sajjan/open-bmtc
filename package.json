@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a13f0185bfcb7ed416f038f21e16407b9d5cdd69a056af33b3ae4bd4271ea771
-size 570
+{
+  "name": "bmtc-brutalist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "sync:data": "node scripts/sync-data.js"
+  },
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "autoprefixer": "10.4.16",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.4.14"
+  }
+}

@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a0e50a7241e7fb84645b54f649239b17b9cfabfab77dc0564e674fd014a937e3
-size 250
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url
+Vonter,https://github.com/Vonter/bmtc-gtfs,en,20251202,20261202,20251202,me@vonter.in,https://github.com/Vonter/bmtc-gtfs

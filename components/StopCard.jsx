@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e47f19d2f85f0837f8d8ed3ddc32fce4c4299c00a685d7454eb981e32fd3cd99
-size 443
+"use client";
+
+export default function StopCard({ stop, onClick }) {
+  return (
+    <button className="brutal-card text-left w-full transition-opacity duration-150 hover:opacity-80" onClick={() => onClick?.(stop)}>
+      <div className="text-2xl md:text-3xl font-extrabold tracking-tight">{stop.stop_name}</div>
+      <div className="mt-2 font-mono text-xs md:text-sm text-gray-300">{stop.stop_lat}, {stop.stop_lon}</div>
+    </button>
+  );
+}

@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e9e080d24ef0a444ddfb44d2366f42116a4e95a854f96a8875e318b4fd5a5835
-size 220
+{
+  "name": "BMTC × Brutalism",
+  "short_name": "BMTC",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Raw, loud, sharp BMTC transit app"
+}

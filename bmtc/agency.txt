@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:92e04875f5521a57468b2fc2bf5edba50a2423bc290c90f26c350a585c6e79d2
-size 109
+agency_id,agency_name,agency_url,agency_timezone
+1,BMTC,https://mybmtc.karnataka.gov.in/english,Asia/Kolkata

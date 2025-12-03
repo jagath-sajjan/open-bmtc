@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cb77bc7699062fcde550b782ce9849a3a4c75110726bb8799953cca9cbfd6097
-size 904
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+.brutal-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.brutal-input {
+  @apply bg-black text-white border-2 border-white rounded-none h-14 px-4 w-full placeholder-gray-400 focus:outline-none focus:ring-0 focus:border-white;
+}
+
+.brutal-button {
+  @apply bg-black text-white border-2 border-white rounded-none h-14 px-4 w-full font-bold tracking-tight transition-colors duration-150 hover:bg-white hover:text-black hover:border-white active:bg-accent active:text-black;
+}
+
+.brutal-chip {
+  @apply bg-black text-white border-2 border-white rounded-none px-4 py-2 font-bold text-lg transition-colors duration-150 hover:bg-white hover:text-black;
+}
+
+.brutal-card {
+  @apply bg-black text-white border-2 border-white rounded-none p-4;
+}
+
+.brutal-sep {
+  @apply border-t-2 border-white;
+}
